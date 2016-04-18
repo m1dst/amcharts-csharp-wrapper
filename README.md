@@ -1,10 +1,12 @@
 # amcharts-csharp-wrapper
-A C# wrapper for the JavaScript amCharts library
+A C# wrapper for the JavaScript amCharts library - https://www.amcharts.com/
 
 This is work in progress and only has classes which I have required to date.  Feel free to add/fix things which I have missed.
 I still have to add other charts to the wrapper as currently it supports Maps only.
 
 TIP: If you wish to make use of a variable such as an SVG element already created in the page you can supply it surrounded by double curly braces eg: ```{{targetSVG}}``` and it will be rendered in json without quotes.
+
+The library is not distributed with this project.  Please visit their website to obtain the latest version.
 
 ##Basic usage
 
