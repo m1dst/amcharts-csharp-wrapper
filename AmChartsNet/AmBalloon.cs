@@ -51,7 +51,8 @@ namespace AmChartsNet
         public bool? DisableMouseEvents { get; set; }
 
         /// <summary>
-        /// Allows having drop-shaped balloons.Note, these balloons will not check for overlapping with other balloons, or if they go outside plot area.
+        /// Allows having drop-shaped balloons.
+        /// Note, these balloons will not check for overlapping with other balloons, or if they go outside plot area.
         /// It also does not change pointer orientation automatically based on its vertical position like regular balloons do. 
         /// You can use pointerOrientation property if you want it to point to different direction. Not supported by IE8.
         /// </summary>
