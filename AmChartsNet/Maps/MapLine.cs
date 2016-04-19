@@ -41,12 +41,12 @@ namespace AmChartsNet.Maps
         /// <summary>
         /// Array of latitudes. If you set array of latitudes and longitudes, line move with the map.In case you want the line to be in a fixed position, set x and y arrays instead.
         /// </summary>
-        public Tuple<double, double> Latitudes { get; set; }
+        public double[] Latitudes { get; set; }
 
         /// <summary>
         /// Array of longitudes. If you set array of latitudes and longitudes, line move with the map.In case you want the line to be in a fixed position, set x and y arrays instead.
         /// </summary>
-        public Tuple<double, double> Longitudes { get; set; }
+        public double[] Longitudes { get; set; }
 
         /// <summary>
         /// Line thickness.
