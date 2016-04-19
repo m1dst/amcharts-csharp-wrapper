@@ -45,11 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmBalloon.cs" />
     <Compile Include="AmChart.cs" />
+    <Compile Include="Enums.cs" />
     <Compile Include="Label.cs" />
     <Compile Include="Maps\AmMap.cs" />
     <Compile Include="Maps\AreasSettings.cs" />
-    <Compile Include="Maps\Enums.cs" />
     <Compile Include="Maps\ImagesSettings.cs" />
     <Compile Include="Maps\LinesSettings.cs" />
     <Compile Include="Maps\MapArea.cs" />

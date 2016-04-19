@@ -15,6 +15,11 @@
         /// </summary>
         public bool? Accessible { get; set; }
 
+        /// <summary>
+        /// The chart creates AmBalloon class itself. If you want to customize balloon, get balloon instance using this property, and then change balloon's properties.
+        /// </summary>
+        public AmBalloon Balloon { get; set; }
+
         public bool HideCredits { get; set; } = true;
 
     }

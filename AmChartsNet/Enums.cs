@@ -1,4 +1,4 @@
-﻿namespace AmChartsNet.Maps
+﻿namespace AmChartsNet
 {
     public enum ArrowPosition
     {
@@ -7,5 +7,12 @@
         Middle,
         Both,
         None
+    }
+
+    public enum TextAlign
+    {
+        Left,
+        Middle,
+        Right
     }
 }
