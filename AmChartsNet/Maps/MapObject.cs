@@ -43,37 +43,37 @@ namespace AmChartsNet.Maps
         /// <summary>
         /// Description of MapObject. Description is displayed in DescriptionWindow (when user clicks on an object). It can also be displayed in a roll-over balloon. DescriptionWindow can display HTML formatted code.
         /// </summary>
-        public int? Description { get; set; }
+        public string Description { get; set; }
 
         /// <summary>
         /// Distance from the bottom side of map container to the description window. In case it is not set (also if descriptionWindowTop is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowBottom { get; set; }
+        public string DescriptionWindowBottom { get; set; }
 
         /// <summary>
         /// Height of a description window.
         /// </summary>
-        public int? DescriptionWindowHeight { get; set; }
+        public string DescriptionWindowHeight { get; set; }
 
         /// <summary>
         /// Distance from the left side of map container to the description window. In case it is not set (also if descriptionWindowRight is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowLeft { get; set; }
+        public string DescriptionWindowLeft { get; set; }
 
         /// <summary>
         /// Distance from the right side of map container to the description window. In case it is not set (also if descriptionWindowLeft is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowRight { get; set; }
+        public string DescriptionWindowRight { get; set; }
 
         /// <summary>
         /// Distance from the top side of map container to the description window. In case it is not set (also if descriptionWindowBottom is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowTop { get; set; }
+        public string DescriptionWindowTop { get; set; }
 
         /// <summary>
         /// Width of a description window.
         /// </summary>
-        public int? DescriptionWindowWidth { get; set; }
+        public string DescriptionWindowWidth { get; set; }
 
         /// <summary>
         /// Specifies if the object should change the size together with the map or keep fixed size. This applies for objects with lat and long properties set, as they move together with the map.
