@@ -60,32 +60,32 @@
         /// <summary>
         /// Distance from the bottom side of map container to the description window. In case it is not set (also if descriptionWindowTop is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowBottom { get; set; }
+        public string DescriptionWindowBottom { get; set; }
 
         /// <summary>
         /// Height of a description window.
         /// </summary>
-        public int? DescriptionWindowHeight { get; set; }
+        public string DescriptionWindowHeight { get; set; }
 
         /// <summary>
         /// Distance from the left side of map container to the description window. In case it is not set (also if descriptionWindowRight is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowLeft { get; set; }
+        public string DescriptionWindowLeft { get; set; }
 
         /// <summary>
         /// Distance from the right side of map container to the description window. In case it is not set (also if descriptionWindowLeft is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowRight { get; set; }
+        public string DescriptionWindowRight { get; set; }
 
         /// <summary>
         /// Distance from the top side of map container to the description window. In case it is not set (also if descriptionWindowBottom is not set), window will be placed near the mouse pointer.
         /// </summary>
-        public int? DescriptionWindowTop { get; set; }
+        public string DescriptionWindowTop { get; set; }
 
         /// <summary>
         /// Width of a description window.
         /// </summary>
-        public int? DescriptionWindowWidth { get; set; }
+        public string DescriptionWindowWidth { get; set; }
 
         /// <summary>
         /// Label color.
