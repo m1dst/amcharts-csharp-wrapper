@@ -81,12 +81,12 @@ namespace AmChartsNet.Maps
         public string LabelRollOverColor { get; set; }
 
         /// <summary>
-        /// In some cases you might want to adjust label position a bit. Use this property to shift label horizontally.
+        /// In some cases you might want to adjust label position a bit.Use this property to shift label horizontally.
         /// </summary>
         public int? LabelShiftX { get; set; }
 
         /// <summary>
-        /// In some cases you might want to adjust label position a bit. Use this property to shift label vertically.
+        /// In some cases you might want to adjust label position a bit.Use this property to shift label vertically.
         /// </summary>
         public int? LabelShiftY { get; set; }
 
@@ -96,7 +96,7 @@ namespace AmChartsNet.Maps
         public double? Latitude { get; set; }
 
         /// <summary>
-        /// Distance from left of a map container to the image. If centered property is false, then the distance is measured to the left of the image, otherwise - to the center.
+        /// Distance from left of a map container to the image.If centered property is false, then the distance is measured to the left of the image, otherwise - to the center.
         /// The image will not be bounded to the map if this property is set.Use latitude and longitude properties if you want the image to move with the map.
         /// This property can be set as a number (of pixels) or as a percent value, like: image.left = "10%";
         /// </summary>

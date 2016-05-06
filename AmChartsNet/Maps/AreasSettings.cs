@@ -152,5 +152,11 @@
         /// </summary>
         public string UnlistedAreasOutlineColor { get; set; }
 
+        public bool BalloonsEnabled
+        {
+            get { return (BalloonText == null || BalloonText.Trim().Length > 0); }
+            set { BalloonText = value ? null : ""; }
+        }
+
     }
 }

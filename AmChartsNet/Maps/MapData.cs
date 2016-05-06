@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace AmChartsNet.Maps
 {
@@ -24,6 +25,16 @@ namespace AmChartsNet.Maps
         /// Longitude of left-most point of a map. All maps in amMap package have this information hardcoded in SVG file.
         /// </summary>
         public double? LeftLongitude { get; set; }
+
+        /// <summary>
+        /// linkToObject can be a reference or id of some other MapObject - MapArea, MapImage or MapLine. 
+        /// It can also be a reference to another DataSet (but not an id). 
+        /// Then user clicks on this object the application would zoom-in to this objects' zoom position (if it is set) and then act as if the linkToObject was clicked. 
+        /// This can also be used for selecting the object you want to be selected right after the map is initialized, as DataSet extends MapObject class, you can specify linkToObject for your DataSet. 
+        /// When you link to another DataSet, you can build drill-down maps.
+        /// </summary>
+        [JsonConverter(typeof(PlainJsonStringConverter))]
+        public string LinkToObject { get; set; }
 
         /// <summary>
         /// Name of a map. Instead of using mapURL or mapVar you can use name of the map, usualy the same as file name of the map, for example: map = "worldLow".

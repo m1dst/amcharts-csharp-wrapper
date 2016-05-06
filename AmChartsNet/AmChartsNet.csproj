@@ -47,7 +47,19 @@
   <ItemGroup>
     <Compile Include="AmBalloon.cs" />
     <Compile Include="AmChart.cs" />
+    <Compile Include="AmCoordinateChart.cs" />
+    <Compile Include="AmGraph.cs" />
+    <Compile Include="AmLegend.cs" />
+    <Compile Include="AmRectangularChart.cs" />
+    <Compile Include="AmSerialChart.cs" />
+    <Compile Include="AxisBase.cs" />
+    <Compile Include="CategoryAxis.cs" />
+    <Compile Include="ChartCursor.cs" />
+    <Compile Include="ChartScrollbar.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Export.cs" />
+    <Compile Include="Guide.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="Label.cs" />
     <Compile Include="Maps\AmMap.cs" />
     <Compile Include="Maps\AreasSettings.cs" />
@@ -64,6 +76,8 @@
     <Compile Include="PlainJsonStringConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Title.cs" />
+    <Compile Include="TrendLine.cs" />
+    <Compile Include="ValueAxis.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -3,7 +3,10 @@
     public class AmMap: AmChart
     {
 
-        public string Type { get; private set; } = "map";
+        public AmMap()
+        {
+            Type = ChartType.Map;
+        }
 
         /// <summary>
         /// Specifies if user can repeatedly click on already selected object.
